@@ -1,0 +1,27 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  libbluray2        libplacebo349       libtheoradec1
+  libgdal36         libportmidi0        libtheoraenc1
+  libgdata-common   libqt5ct-common1.8  libudfread0
+  libgdata22        libsframe1          libvpx9
+  libgeos3.13.1     libsigsegv2         python3-packaging-whl
+  libhdf4-0-alt     libsoup-2.4-1       python3-wheel-whl
+  libjs-underscore  libsoup2.4-common
+  libogdi4.1        libtheora0
+Use 'sudo apt autoremove' to remove them.
+
+REMOVING:
+  htop
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 4
+  Freed space: 434 kB
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 420070 files and directories currently installed.)
+Removing htop (3.4.1-5) ...
+Processing triggers for desktop-file-utils (0.28-1) ...
+Processing triggers for hicolor-icon-theme (0.18-2) ...
+Processing triggers for man-db (2.13.1-1) ...
+Processing triggers for kali-menu (2025.4.0) ...

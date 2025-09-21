@@ -1,0 +1,1 @@
+-rwx------ 1 kali kali 0 Sep 21 12:02 /home/kali/lab-practice/prem-test.txt

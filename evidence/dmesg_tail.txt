@@ -1,0 +1,50 @@
+[ 4780.131195]  rest_init+0xcc/0xd0
+[ 4780.131205]  start_kernel+0x74c/0x750
+[ 4780.131222]  x86_64_start_reservations+0x24/0x30
+[ 4780.131235]  x86_64_start_kernel+0x95/0xa0
+[ 4780.131245]  common_startup_64+0x13e/0x141
+[ 4780.131266]  </TASK>
+[ 4780.219281] systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+[ 4780.221107] systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+[ 4780.252967] systemd[1]: systemd-journald.service: Scheduled restart job, restart counter is at 3.
+[ 4780.300992] systemd[1]: Starting systemd-journald.service - Journal Service...
+[ 4780.715450] systemd-journald[2495]: Collecting audit messages is disabled.
+[ 4780.716370] systemd-journald[2495]: File /var/log/journal/aca20de87d7249aa8ee38b14271d7cf8/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[ 4780.746184] systemd[1]: Started systemd-journald.service - Journal Service.
+[ 4812.211471] rcu: INFO: rcu_preempt self-detected stall on CPU
+[ 4812.211478] rcu: 	0-...!: (1 ticks this GP) idle=5204/1/0x4000000000000000 softirq=68435/68435 fqs=0
+[ 4812.211484] rcu: 	(t=6753 jiffies g=61445 q=1 ncpus=1)
+[ 4812.211487] rcu: rcu_preempt kthread timer wakeup didn't happen for 6752 jiffies! g61445 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402
+[ 4812.211491] rcu: 	Possible timer handling issue on cpu=0 timer-softirq=888038
+[ 4812.211493] rcu: rcu_preempt kthread starved for 6753 jiffies! g61445 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=0
+[ 4812.211496] rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+[ 4812.211498] rcu: RCU grace-period kthread stack dump:
+[ 4812.211499] task:rcu_preempt     state:I stack:0     pid:18    tgid:18    ppid:2      flags:0x00004000
+[ 4812.211504] Call Trace:
+[ 4812.211506]  <TASK>
+[ 4812.211510]  __schedule+0x505/0xc00
+[ 4812.211517]  ? __pfx_rcu_gp_kthread+0x10/0x10
+[ 4812.211520]  schedule+0x27/0xf0
+[ 4812.211523]  schedule_timeout+0x9e/0x160
+[ 4812.211526]  ? __pfx_process_timeout+0x10/0x10
+[ 4812.211529]  rcu_gp_fqs_loop+0x10b/0x530
+[ 4812.211532]  rcu_gp_kthread+0xdc/0x1a0
+[ 4812.211535]  kthread+0xd2/0x100
+[ 4812.211537]  ? __pfx_kthread+0x10/0x10
+[ 4812.211539]  ret_from_fork+0x34/0x50
+[ 4812.211554]  ? __pfx_kthread+0x10/0x10
+[ 4812.211555]  ret_from_fork_asm+0x1a/0x30
+[ 4812.211559]  </TASK>
+[ 4812.211569] CPU: 0 UID: 991 PID: 559 Comm: dbus-daemon Tainted: G             L     6.12.38+kali-amd64 #1  Kali 6.12.38-1kali1
+[ 4812.211572] Tainted: [L]=SOFTLOCKUP
+[ 4812.211573] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[ 4812.211574] RIP: 0033:0x7fab97e74bf8
+[ 4812.211584] Code: 8e fe ff ff e8 b9 0b ff ff 66 0f 1f 84 00 00 00 00 00 f3 0f 1e fa 41 56 41 55 49 89 cd 41 54 41 89 d4 55 48 63 ee 4c 8d 75 04 <53> 48 89 fb 42 8b 44 b7 08 83 f8 ff 74 3a 31 d2 83 f8 fe 74 26 48
+[ 4812.211586] RSP: 002b:00007ffe1c1553c8 EFLAGS: 00000206
+[ 4812.211588] RAX: 0000000000000000 RBX: 000055b64becebe0 RCX: 00007ffe1c1553f0
+[ 4812.211589] RDX: 0000000000000073 RSI: 0000000000000006 RDI: 000055b64bf9c9b8
+[ 4812.211590] RBP: 0000000000000006 R08: 000000000000006c R09: 0000000000000000
+[ 4812.211591] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000073
+[ 4812.211592] R13: 00007ffe1c1553f0 R14: 000000000000000a R15: 0000000000000001
+[ 4812.211594] FS:  00007fab978e3000 GS:  0000000000000000
+[ 4834.417236] systemd-journald[2495]: File /var/log/journal/aca20de87d7249aa8ee38b14271d7cf8/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.

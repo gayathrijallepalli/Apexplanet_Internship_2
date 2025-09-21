@@ -1,0 +1,17 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+htop is already the newest version (3.4.1-5).
+The following packages were automatically installed and are no longer required:
+  libbluray2        libplacebo349       libtheoradec1
+  libgdal36         libportmidi0        libtheoraenc1
+  libgdata-common   libqt5ct-common1.8  libudfread0
+  libgdata22        libsframe1          libvpx9
+  libgeos3.13.1     libsigsegv2         python3-packaging-whl
+  libhdf4-0-alt     libsoup-2.4-1       python3-wheel-whl
+  libjs-underscore  libsoup2.4-common
+  libogdi4.1        libtheora0
+Use 'sudo apt autoremove' to remove them.
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 4

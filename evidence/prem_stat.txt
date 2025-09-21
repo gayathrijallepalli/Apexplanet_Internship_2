@@ -1,0 +1,8 @@
+  File: /home/kali/lab-practice/prem-test.txt
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 8,1	Inode: 916012      Links: 1
+Access: (0700/-rwx------)  Uid: ( 1000/    kali)   Gid: ( 1000/    kali)
+Access: 2025-09-21 12:02:18.309827725 +0530
+Modify: 2025-09-21 12:02:18.309827725 +0530
+Change: 2025-09-21 12:04:28.548676431 +0530
+ Birth: 2025-09-21 12:02:18.309827725 +0530

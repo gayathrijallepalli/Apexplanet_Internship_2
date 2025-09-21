@@ -1,0 +1,1 @@
+/home/kali/lab-practice/projects/notes.txt: ASCII text
