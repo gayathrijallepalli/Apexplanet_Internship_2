@@ -425,4 +425,72 @@ listening on [any] 4444 ...
 Reinitialized existing Git repository in /home/kali/lab-practice/.git/
                                                                         ]0;kali@kali: ~/lab-practice
 [0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
-└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hg[4mg[24
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hg[4mg[24m[4mg[24m[38;2;153;153;153mit init[39m[4mg[39m[4mi[24m[4mg[4mi[39m[4mt[24m[24m[36mg[24m[36mi[24m[36mt[39m[36mt[36m [39m[36mt[39m[39m [39ma[39m [39m [39m dd e[1me[0m[1me[1mv[0m[1mv[1mi[0m[1mi[1md[0m[1md[1me[0m[1me[1mn[0m[1mn[1mc[0m[1mc[1me[0m[?1l>[?2004l
+                                                                        ]0;kali@kali: ~/lab-practice
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hg[4mg[24m[4mg[24m[38;2;153;153;153mit add evidence[39m[15D[4mg[39m[4mi[24m[4mg[4mi[39m[4mt[24m[24m[36mg[24m[36mi[24m[36mt[39m[36mt[36m [39m[36mt[39m[39m [39mc[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11Dommit -[32m-[39m[32m-[32mm[39m[32mm[32m [39m[32mm[39m[39m "[33m"[39m[33m"[33mT[39m[33mT[33ma[39m[33ma[33ms[39m[33ms[33mk[39m[33mk[33m1[39m[33m1[33m [39m[33m [33me[39m[33me[33mv[39m[33mv[33mi[39m[33mi[33md[39m[33md[33me[39m[33me[33mn[39m[33mn[33mc[39m[33mc[33me[39m[33me[33m:[39m[33m:[33ml[39m[33ml[33mi[39m[33mi[33mn[39m[33mn[33mu[39m[33mu[33mx[39m[33mx[33m,[39m[33m,[33m [39m[33m [33mn[39m[33mn[33mm[39m[33mm[33ma[39m[33ma[33mp[39m[33mp[33m,[39m[33m,[33m [39m[33m [33mw[39m[33mw[33mi[39m[33mi[33mr[39m[33mr[33me[39m[33me[33ms[39m[33ms[33mh[39m[33mh[33ma[39m[33ma[33mr[39m[33mr[33mk[39m[33mk[33m,[39m[33m,[33m [39m[33m [33mb[39m[33mb[33mu[39m[33mu[33mr[39m[33mr[33mp[39m[33mp[33m,[39m[33m,[33mn[39m[33mn[33me[39m[33me[33mt[39m[33mt[33mc[39m[33mc[33ma[39m[33ma[33mt[39m[33mt[33m"[39m[?1l>[?2004l
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'kali@kali.(none)')
+                                                                        ]0;kali@kali: ~/lab-practice
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hg[4mg[24m[4mg[24m[38;2;153;153;153mit commit -m "Task1 evidence:linux, nmap, wireshark, burp,netcat"[39m[65D[4mg[39m[4mi[24m[4mg[4mi[39m[4mt[24m[24m[36mg[24m[36mi[24m[36mt[39m[36mt[36m [39m[36mt[39m[39m [39mc[39mo[39mn[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [59Dfig -[32m-[39m[32m-[32m-[39m[32m-[32mg[39m[32mg[32ml[39m[32ml[32mo[39m[32mo[32mb[39m[32mb[32ma[39m[32ma[32ml[39m[32ml[32m [39m[32ml[39m[39m user.name "[33m"[39m[33m"[33mM[39m[33mM[33mo[39m[33mo[33mh[39m[33mh[33ma[39m[33ma[33mn[39m[33mn[33m [39m[33m [33ms[39m[33ms[33mr[39m[33ms[39m[39m [33m [39m[39m [33m [33mS[39m[33mS[33mr[39m[33mr[33mi[39m[33mi[33m [39m[33m [33mK[39m[33mK[33mr[39m[33mr[33mi[39m[33mi[33ms[39m[33ms[33mh[39m[33mh[33mn[39m[33mn[33ma[39m[33ma[33m [39m[33m [33mB[39m[33mB[33mu[39m[33mu[33mr[39m[33mr[33ma[39m[33ma[33md[39m[33md[33ma[39m[33ma[33m"[39m[?1l>[?2004l
+                                                                        ]0;kali@kali: ~/lab-practice
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hg[4mg[24m[4mg[24m[38;2;153;153;153mit config --global user.name "Mohan Sri Krishna Burada"[39m[55D[4mg[39m[4mi[24m[4mg[4mi[39m[4mt[24m[24m[36mg[24m[36mi[24m[36mt[39m[36mt[36m [39m[36mt[39m[39m [39mc[39mo[39mn[39mf[39mi[39mg[39m [39m-[32m-[39m[32m-[32m-[39m[32m-[32mg[39m[32mg[32ml[39m[32ml[32mo[39m[32mo[32mb[39m[32mb[32ma[39m[32ma[32ml[39m[32ml[32m [39m[32ml[39m[39m [39mu[39ms[39me[39mr[39m.[39me[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [30Dmail "[33m"[39m[33m"[33mm[39m[33mm[33mo[39m[33mo[33mh[39m[33mh[33ma[39m[33ma[33mn[39m[33mn[33ms[39m[33ms[33mr[39m[33mr[33mi[39m[33mi[33mk[39m[33mk[33mr[39m[33mr[33mi[39m[33mi[33ms[39m[33ms[33mh[39m[33mh[33mn[39m[33mn[33ma[39m[33ma[33me[39m[33me[33md[39m[33md[33mu[39m[33mu[33m@[39m[33m@[33mg[39m[33mg[33mm[39m[33mm[33ma[39m[33ma[33mi[39m[33mi[33ml[39m[33ml[33m.[39m[33m.[33mc[39m[33mc[33mo[39m[33mo[33mm[39m[33mm[33m"[39m[?1l>[?2004l
+                                                                        ]0;kali@kali: ~/lab-practice
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hgit config --global user.email "mohansrikrishnaedu@gmail.com"[61D[36mg[36mi[36mt[39m[8C[32m-[32m-[32mg[32ml[32mo[32mb[32ma[32ml[39m[12C[33m"[33mm[33mo[33mh[33ma[33mn[33ms[33mr[33mi[33mk[33mr[33mi[33ms[33mh[33mn[33ma[33me[33md[33mu[33m@[33mg[33mm[33ma[33mi[33ml[33m.[33mc[33mo[33mm[33m"[39m[36Dname "[33mM[33mo[33mh[33ma[33mn[33m [33mS[2C[33m [33mK[33mr[33mi[33ms[33mh[33mn[33ma[33m [33mB[33mu[33mr[33ma[33md[33ma[33m"[39m[39m [39m [39m [39m [39m [26D[33m"[25C[50D[39mmmit[2C[32mm[32m [32m"[32mT[32ma[32ms[32mk[39m1 evidence:[33ml[33mi[33mn[33mu[33mx[33m,[33m [33mn[33mm[33ma[33mp[33m,[33m [33mw[33mi[33mr[33me[33ms[33mh[33ma[33mr[33mk[33m,[33m [33mb[33mu[39mrp,netcat"[54D[32mm[39m[39m [33m"[33mT[33ma[33ms[33mk[33m1[33m [33me[33mv[33mi[33md[33me[33mn[33mc[33me[33m:[25C[33mu[33mr[33mp[33m,[33mn[33me[33mt[33mc[33ma[33mt[33m"[39m[?1l>[?2004l
+[master (root-commit) 02e44c7] Task1 evidence:linux, nmap, wireshark, burp,netcat
+ 31 files changed, 857 insertions(+)
+ create mode 100644 evidence/apt_install_htop.txt
+ create mode 100644 evidence/apt_remove_htop.txt
+ create mode 100644 evidence/apt_update.txt
+ create mode 100644 evidence/curl_headers_target.txt
+ create mode 100644 evidence/dmesg_tail.txt
+ create mode 100644 evidence/dpkg_htop.txt
+ create mode 100644 evidence/file_notes.txt
+ create mode 100644 evidence/head_notes.txt
+ create mode 100644 evidence/htop_version.txt
+ create mode 100644 evidence/ip_a.txt
+ create mode 100644 evidence/ls_home.txt
+ create mode 100644 evidence/myscript-output.txt
+ create mode 100644 evidence/nc_listener_log.txt
+ create mode 100644 evidence/nmap_ping_scan.txt
+ create mode 100644 evidence/nmap_sV_scan.gnmap
+ create mode 100644 evidence/nmap_sV_scan.nmap
+ create mode 100644 evidence/nmap_sV_scan.xml
+ create mode 100644 evidence/nmap_syn_1-1000.txt
+ create mode 100644 evidence/notes_cat.txt
+ create mode 100644 evidence/prem_after_600.txt
+ create mode 100644 evidence/prem_after_ux.txt
+ create mode 100644 evidence/prem_before.txt
+ create mode 100644 evidence/prem_stat.txt
+ create mode 100644 evidence/ps_top50.txt
+ create mode 100644 evidence/pwd.txt
+ create mode 100644 evidence/session.txt
+ create mode 100644 evidence/ss_listening.txt
+ create mode 100644 evidence/tail_notes.txt
+ create mode 100644 evidence/top_snapshot.txt
+ create mode 100644 evidence/traceroute_8_8_8_8.txt
+ create mode 100644 evidence/tshark_summary.txt
+                                                                        ]0;kali@kali: ~/lab-practice
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hg[4mg[24m[4mg[24m[38;2;153;153;153mit commit -m "Task1 evidence:linux, nmap, wireshark, burp,netcat"[39m[65D[4mg[39m[4mi[24m[4mg[4mi[39m[4mt[24m[24m[36mg[24m[36mi[24m[36mt[39m[36mt[36m [39m[36mt[39m[39m [39mr[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [61Demote add origin https://github.com/mohansrikrishnaburada/Apexp [K[Kllanet_Internship_2.git[?1l>[?2004l
+                                                                        ]0;kali@kali: ~/lab-practice
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hg[4mg[24m[4mg[24m[38;2;153;153;153mit remote add origin https://github.com/mohansrikrishnaburada/Apexp[38;2;153;153;153ml[38;2;153;153;153manet_Internship_2.git[39m[K[A[17D[4mg[39m[4mi[24m[4mg[4mi[39m[4mt[24m[24m[36mg[24m[36mi[24m[36mt[39m[36mt[36m [39m[36mt[39m[39m [39mp[K[1B[K[A[9C[1mp[0m[1mp[1mu[0m[0mp[0mush -[32m-[39m[32m-[32mu[39m[32mu[32m [39m[32mu[39m[39m origin m[1mm[0m[1mm[1ma[0m[0mm[0main[?1l>[?2004l[1Berror: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git'
+[m                                                                        ]0;kali@kali: ~/lab-practice
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/lab-practice[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hgit push -u origin main[23D[36mg[36mi[36mt[39m[6C[32m-[32mu[39m[12C[19Dremot[32me[32m [39madd origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[K[A[9D[39me[39m [1B[7C[A[71C[P[54Cla[P[20C [A[P[55Can[P[19C [A[P[56Cne[P[18C [A[P[56Cet[P[17C [A[P[58Ct_[P[16C [A[P[59C_I[P[15C [A[P[60CIn[P[14C [A[P[61Cnt[P[13C [A[P[62Cte[P[12C [A[P[63Cer[P[11C [Ap origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[Au origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[As origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[Ah origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[A[1C origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[A- origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[A[32m-[39m[32m-[32mu[39m origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[A[32mu[32m [39m origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[A[32mu[39m[39m o origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[Ar origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[Ai origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[Ag origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[Ai origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[An origin https://github.com/mohansrikrishnaburada/Apexplanet_Internship_2.git[A
