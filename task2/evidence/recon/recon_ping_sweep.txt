@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Thu Sep 25 12:01:08 2025 as: /usr/lib/nmap/nmap --privileged -sn -oN /home/kali/task2/evidence/recon/recon_ping_sweep.txt 192.168.56.0/24
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 192.168.56.1
+Host is up (0.00069s latency).
+MAC Address: 0A:00:27:00:00:02 (Unknown)
+Nmap scan report for 192.168.56.100
+Host is up (0.0012s latency).
+MAC Address: 08:00:27:32:1C:EF (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Nmap scan report for 192.168.56.102
+Host is up (0.00073s latency).
+MAC Address: 08:00:27:3A:30:9C (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Nmap scan report for 192.168.56.104
+Host is up.
+# Nmap done at Thu Sep 25 12:01:10 2025 -- 256 IP addresses (4 hosts up) scanned in 1.95 seconds

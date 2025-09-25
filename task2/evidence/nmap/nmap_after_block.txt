@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Thu Sep 25 13:57:27 2025 as: /usr/lib/nmap/nmap --privileged -sS -p 22,80 -oN /home/kali/task2/evidence/nmap/nmap_after_block.txt 192.168.56.104
+Nmap scan report for 192.168.56.104
+Host is up (0.0010s latency).
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+80/tcp filtered http
+
+# Nmap done at Thu Sep 25 13:57:28 2025 -- 1 IP address (1 host up) scanned in 1.42 seconds
